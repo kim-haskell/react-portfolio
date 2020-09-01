@@ -1,4 +1,6 @@
 import React from "react";
+import About_Me from "./About_Me.png";
+import "./styles.css";
 
 function Home () {
 
@@ -6,7 +8,7 @@ function Home () {
      <div className="card mb-3">
      <div className="row no-gutters">
     <div className="col-md-4">
-      <img src="https://images.unsplash.com/photo-1598887037312-54c5d66e9424?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" className="card-img" alt="..."></img>
+      <img src={About_Me} className="card-img" alt="..."></img>
      </div>
      <div className="col-md-8">
       <div className="card-body">
